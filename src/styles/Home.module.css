@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.post {
+  margin: 16px;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10%;
+}
+
+.postTitle {
+  margin-bottom: 16px;
+}
+
+.postDescription {
+  color: var(--text-color-secondary);
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.postLink {
+  font-style: italic;
+  font-size: 12px;
+}
